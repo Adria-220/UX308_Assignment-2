@@ -11,8 +11,9 @@ function theme_enqueue_styles() {
         array('parent-style')
     );
     wp_enqueue_script('custom_javascript0', get_stylesheet_directory_uri() . '/customElements.js');
-    wp_enqueue_script_module('custom_javascript1', "https://adria-220.github.io/Assignment1_UX308/fab.js");
+    wp_enqueue_script_module('custom_javascript1', "https://adria-220.github.io/Assignment1_UX308/ab.js");
     wp_enqueue_script_module('custom_javascript2', "https://adria-220.github.io/Assignment1_UX308/chat.js");
+    
 }
 //
 // Your code goes below
